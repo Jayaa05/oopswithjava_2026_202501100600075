@@ -29,7 +29,7 @@ class SmartPhone extends Device implements Camera, CameraInfo {
         super(brand);
     }
 
-    void turnOn() {
+    public void turnOn() {
         System.out.println("Camera turned on");
     }
 
@@ -42,7 +42,7 @@ class SmartPhone extends Device implements Camera, CameraInfo {
     }
 }
 
-public class Main {
+public class Abstract_class {
     public static void main(String[] args) {
 
         SmartPhone phone = new SmartPhone("Samsung");
